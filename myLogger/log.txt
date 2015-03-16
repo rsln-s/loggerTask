@@ -1,1 +1,3 @@
 ERROR: Smth happened
+WARNING: we're out of sugar
+INFO: Coffee is ready

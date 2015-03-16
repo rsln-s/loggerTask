@@ -6,6 +6,16 @@
 //
 //
 
+/*
+ There are three levels of logging: RSRELEASE (only errors), RSDEBUG (errors and warnings) and RSALL (everything). 
+ To use my logger just add a file (or use stdout, stderr) like this
+ 
+ fp = fopen("myfile.txt", "r");
+ setLogLevel(RSDEBUG);
+ WARNING(fp, "something went wrong");
+ ERROR(stderr, "TERRIBLE ERROR");
+ */
+
 #ifndef __myLogger__RSLogger__
 #define __myLogger__RSLogger__
 

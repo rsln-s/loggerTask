@@ -10,7 +10,7 @@
 #include "RSLogger.h"
 
 int main(int argc, const char * argv[]) {
-    int myloglevel = RSRELEASE;
+    int myloglevel = RSALL;
     char myerror [50] = "Smth happened";
     char mywarning [50] = "we're out of sugar";
     char myinfo [50] = "Coffee is ready";
