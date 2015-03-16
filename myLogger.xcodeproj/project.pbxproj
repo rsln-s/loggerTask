@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44ACF6D91AB74DE60068264D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44ACF6D81AB74DE60068264D /* main.cpp */; };
+		44ACF6DD1AB750670068264D /* RSLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44ACF6CD1AB74CD40068264D /* RSLogger.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44ACF6D31AB74DE60068264D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		44ACF6CD1AB74CD40068264D /* RSLogger.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RSLogger.cpp; sourceTree = "<group>"; };
+		44ACF6CE1AB74CD40068264D /* RSLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSLogger.h; sourceTree = "<group>"; };
+		44ACF6D51AB74DE60068264D /* myLogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myLogger; sourceTree = BUILT_PRODUCTS_DIR; };
+		44ACF6D81AB74DE60068264D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		44ACF6DE1AB7534F0068264D /* log.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = log.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44ACF6D21AB74DE60068264D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44ACF6C61AB74C4E0068264D = {
+			isa = PBXGroup;
+			children = (
+				44ACF6CD1AB74CD40068264D /* RSLogger.cpp */,
+				44ACF6CE1AB74CD40068264D /* RSLogger.h */,
+				44ACF6D71AB74DE60068264D /* myLogger */,
+				44ACF6D61AB74DE60068264D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44ACF6D61AB74DE60068264D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44ACF6D51AB74DE60068264D /* myLogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ACF6D71AB74DE60068264D /* myLogger */ = {
+			isa = PBXGroup;
+			children = (
+				44ACF6D81AB74DE60068264D /* main.cpp */,
+				44ACF6DE1AB7534F0068264D /* log.txt */,
+			);
+			path = myLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44ACF6D41AB74DE60068264D /* myLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44ACF6DC1AB74DE60068264D /* Build configuration list for PBXNativeTarget "myLogger" */;
+			buildPhases = (
+				44ACF6D11AB74DE60068264D /* Sources */,
+				44ACF6D21AB74DE60068264D /* Frameworks */,
+				44ACF6D31AB74DE60068264D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myLogger;
+			productName = myLogger;
+			productReference = 44ACF6D51AB74DE60068264D /* myLogger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44ACF6C71AB74C4E0068264D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					44ACF6D41AB74DE60068264D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 44ACF6CA1AB74C4E0068264D /* Build configuration list for PBXProject "myLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 44ACF6C61AB74C4E0068264D;
+			productRefGroup = 44ACF6D61AB74DE60068264D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44ACF6D41AB74DE60068264D /* myLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44ACF6D11AB74DE60068264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44ACF6DD1AB750670068264D /* RSLogger.cpp in Sources */,
+				44ACF6D91AB74DE60068264D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44ACF6CB1AB74C4E0068264D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		44ACF6CC1AB74C4E0068264D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		44ACF6DA1AB74DE60068264D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		44ACF6DB1AB74DE60068264D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44ACF6CA1AB74C4E0068264D /* Build configuration list for PBXProject "myLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACF6CB1AB74C4E0068264D /* Debug */,
+				44ACF6CC1AB74C4E0068264D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44ACF6DC1AB74DE60068264D /* Build configuration list for PBXNativeTarget "myLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44ACF6DA1AB74DE60068264D /* Debug */,
+				44ACF6DB1AB74DE60068264D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44ACF6C71AB74C4E0068264D /* Project object */;
+}
